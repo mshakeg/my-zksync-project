@@ -8,6 +8,11 @@
   "scripts": {
     "deploy": "hardhat deploy-zksync --script deploy.ts",
     "deploy:calculator": "hardhat deploy-zksync --script deploy_calculator.ts",
+    "deploy:factory": "hardhat deploy-zksync --script deploy_factory.ts",
+    "deploy:factory:constructor": "hardhat deploy-zksync --script deploy_factory_constructor.ts",
+    "deploy:factory:constructor-lib": "hardhat deploy-zksync --script deploy_factory_constructor_lib.ts",
+    "deploy:factory2:constructor-lib": "hardhat deploy-zksync --script deploy_factory2_constructor_lib.ts",
+    "deploy:deployerfactory2:constructor-lib": "hardhat deploy-zksync --script deploy_deployerfactory2_constructor_lib.ts",
     "interact": "hardhat deploy-zksync --script interact.ts",
     "compile": "hardhat compile",
     "clean": "hardhat clean",

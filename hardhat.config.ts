@@ -43,6 +43,9 @@ const config: HardhatUserConfig = {
       libraries: {
         "contracts/MathLib.sol": {
           "MathLib": "0xE6f95768D5BADC7561EC7Fb6BCE2459F0fF69CDc"
+        },
+        "contracts/ChildDeployer.sol": {
+          "ChildDeployer": "0x83Cf5C94d07B9Ef850e40f4C038ACe9858b419e2"
         }
       }
     },
